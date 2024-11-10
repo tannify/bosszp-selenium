@@ -1,12 +1,12 @@
 # boss-selenium
-完整操作步骤
+*完整操作步骤*
 
 ## 1. 环境准备
 **安装项目依赖库**
 ```cmd
 pip install -r requirements.txt
 ```
-**创建数据库和表**
+**创建数据库和表** 在SQL中进行
 ```sql
 drop database if exists spider_db;
 create database if not exists spider_db;
@@ -40,6 +40,10 @@ create table spider_db.job_info
 ```cmd
 python boss_selenium.py
 ```
+## 3.修改部分
+SQL数据库相关信息：
+
+爬取职位信息以及对应XPATH
 
 ## 3.运行结果
 控制台显示:
